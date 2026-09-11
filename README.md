@@ -14,4 +14,25 @@ A full-stack MERN (MongoDB, Express.js, React/Vite, Node.js) web application des
 * **Database**: MongoDB (Mongoose)
 * **Security**: bcryptjs for password hashing, JWT for session handling
 
+* Local Installation & Setup
+
+> **Clone the repository**
+   ```bash
+   git clone https://github.com/Ngashh/travel-office-system.git
+   cd travel-office-system
+
+ cd server
+npm install
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+npm run dev
+
+cd client
+npm install
+
+npm run dev
+
 
